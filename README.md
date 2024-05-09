@@ -1,34 +1,42 @@
-# Testes automatizados com Cypress - Intermediário
+# Automated testing with Cypress
 
-👋 Seja bem-vinda(o)!
+## What was accomplished in this project:
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+- How to configure the local development environment
+- How to install and configure Cypress
+- How to create automated graphical user interface tests
+- How to create automated API tests (with visual _feedback_ in the browser)
+- How to test APIs that require an access _token_
+- How to create optimized and straight-to-the-point tests
+- How to save the user session in the browser for later restoration
+- How to validate if the user session is still valid and how to deal with it when it is invalidated
+- How to clean and create the mass of data before testing begins
+- How to protect sensitive data, such as passwords and access tokens
+- How to organize tests and custom commands into different "layers" (_API, CLI, GUI_)
+- How to structure tests thinking about preconditions, actions and expected results
+- How to generate random data for use in automated tests
+- How to enable experimental Cypress features
+- How to execute commands at the operating system level
+- And how to test file reading
 
-## O que você vai aprender
+## Pre-requirements
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+It is required to have Node.js and npm installed to run this project.
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+## Installation
 
-## Vamos começar?
+Run `npm install` (or `npm i`) to install the dev dependencies.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Tests
 
-___
+You can run the tests simulating a desktop or mobile viewport.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+### Desktop
+
+Run `npm test` (or `npm t`) to run the test in headless mode on a desktop viewport.
+Run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
+
+### Mobile
+
+Run `npm run test:mobile` to run the test in headless mode on a mobile viewport.
+Run `npm run cy:open:mobile` to open Cypress in interactive mode on a mobile viewport.
