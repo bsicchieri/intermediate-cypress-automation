@@ -31,12 +31,7 @@ Run `npm install` (or `npm i`) to install the dev dependencies.
 
 You can run the tests simulating a desktop or mobile viewport.
 
-### Desktop
+### Run tests
 
 Run `npm test` (or `npm t`) to run the test in headless mode on a desktop viewport.
 Run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
-
-### Mobile
-
-Run `npm run test:mobile` to run the test in headless mode on a mobile viewport.
-Run `npm run cy:open:mobile` to open Cypress in interactive mode on a mobile viewport.
