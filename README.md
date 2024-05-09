@@ -31,6 +31,6 @@ Run `npm install` (or `npm i`) to install the dev dependencies.
 
 You can run the tests using the commands below:
 
-Run `npm test` (or `npm t`) to run the test in headless mode on a desktop viewport.
+Run `npm test` (or `npm t`) to run the test in headless mode.
 
-Run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
+Run `npm run cy:open` to open Cypress in interactive mode.
